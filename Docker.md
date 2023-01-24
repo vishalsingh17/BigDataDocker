@@ -162,8 +162,6 @@ docker run -d -p 9000:8080 bitnami/nginx:1.23
 
 docker: Error response from daemon: driver failed programming external connectivity on endpoint compassionate_borg (fd538ba763a62965e6c442dbbdeeb2f97e15cefbc905f065fec615f9ebfcff8a): Bind for 0.0.0.0:9000 failed: port is already allocated.
 
-![Untitled](Docker%20e4f5d5d142eb4d3c89bb61faa4dcd65d/Untitled%204.png)
-
 To overcome this error we have to do something called as port binding.
 
 ```bash
@@ -321,7 +319,7 @@ One of the reasons Docker containers and services are so powerful is that you ca
 
 Docker takes care of the networking aspects so that the containers can communicate with the other containers and also the Docker Host. If you do an **ifconfig** on the Docker Host, you will see the Docker Ethernet adapter. This adapter is created when docker is installed on the Docker Host.
 
-![Untitled](Docker%20e4f5d5d142eb4d3c89bb61faa4dcd65d/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/55878408/214307345-41660144-7f99-41bb-b2dc-2e5915f7535a.png)
 
 ### Advantages of Docker Networking
 
